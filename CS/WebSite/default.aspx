@@ -1,12 +1,12 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="_default" %>
 
-<%@ Register Assembly="DevExpress.Web.v9.3" Namespace="DevExpress.Web.ASPxRoundPanel"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxRoundPanel"
     TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v9.3" Namespace="DevExpress.Web.ASPxPanel"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxPanel"
     TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.ASPxEditors.v9.3" Namespace="DevExpress.Web.ASPxEditors"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors"
     TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v9.3" Namespace="DevExpress.Web.ASPxDataView"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxDataView"
     TagPrefix="dx" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
