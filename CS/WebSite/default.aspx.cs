@@ -9,8 +9,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxDataView;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 
 public partial class _default : System.Web.UI.Page {
     /* Data */
@@ -72,7 +71,7 @@ public partial class _default : System.Web.UI.Page {
         dataView.DataBind();
     }
 
-    protected void dataView_CustomCallback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+    protected void dataView_CustomCallback(object sender, DevExpress.Web.CallbackEventArgsBase e) {
         UpdateMyItemsFromClient();
 
         if(e.Parameter.StartsWith("delete")) {

@@ -10,8 +10,7 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxDataView
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 
 Partial Public Class _default
 	Inherits System.Web.UI.Page
@@ -85,7 +84,7 @@ Partial Public Class _default
 		dataView.DataBind()
 	End Sub
 
-	Protected Sub dataView_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub dataView_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		UpdateMyItemsFromClient()
 
 		If e.Parameter.StartsWith("delete") Then
