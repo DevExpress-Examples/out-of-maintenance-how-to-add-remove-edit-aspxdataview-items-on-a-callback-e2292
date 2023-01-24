@@ -1,6 +1,6 @@
 <%@ Page Language="vb" AutoEventWireup="true" CodeFile="default.aspx.vb" Inherits="_default" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.1" Namespace="DevExpress.Web"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web"
 	TagPrefix="dx" %>
 
 
